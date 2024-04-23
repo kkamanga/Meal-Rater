@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextDishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dish Name" />
+
+    <EditText
+        android:id="@+id/editTextRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Restaurant Name" />
+
+    <Button
+        android:id="@+id/buttonRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: " />
+
+    <TextView
+        android:id="@+id/textViewDish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dish: " />
+
+    <TextView
+        android:id="@+id/textViewRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurant: " />
+
+    <TextView
+        android:id="@+id/textViewRatingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A" />
+
+    <TextView
+        android:id="@+id/textViewDishValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A" />
+
+    <TextView
+        android:id="@+id/textViewRestaurantValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A" />
+
+</LinearLayout>
